@@ -1,3 +1,4 @@
+// Credit: https://stackoverflow.com/questions/47057649/typescript-string-dot-notation-of-nested-object
 type IndexValues = ['0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'];
 
 type PathsToStringProps<T> = T extends any[]
